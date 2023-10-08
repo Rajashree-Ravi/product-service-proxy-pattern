@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ecommerce.productservice.service.ProductService;
-import com.ecommerce.sharedlibrary.exception.EcommerceException;
-import com.ecommerce.sharedlibrary.model.ProductDto;
+import com.ecommerce.productservice.exception.EcommerceException;
+import com.ecommerce.productservice.model.ProductDto;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

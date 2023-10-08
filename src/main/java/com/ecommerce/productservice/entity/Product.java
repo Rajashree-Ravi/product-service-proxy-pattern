@@ -39,11 +39,8 @@ public class Product {
 	@NotBlank
 	private String category;
 
-	@NotNull
-	private int availability;
-
 	public Product updateWith(Product product) {
 		return new Product(this.id, product.productCode, product.productName, product.price, product.description,
-				product.category, product.availability);
+				product.category);
 	}
 }

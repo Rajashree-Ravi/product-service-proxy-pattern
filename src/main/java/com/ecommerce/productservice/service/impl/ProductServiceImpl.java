@@ -14,8 +14,8 @@ import org.springframework.stereotype.Service;
 import com.ecommerce.productservice.entity.Product;
 import com.ecommerce.productservice.repository.ProductRepository;
 import com.ecommerce.productservice.service.ProductService;
-import com.ecommerce.sharedlibrary.exception.EcommerceException;
-import com.ecommerce.sharedlibrary.model.ProductDto;
+import com.ecommerce.productservice.exception.EcommerceException;
+import com.ecommerce.productservice.model.ProductDto;
 
 @Service
 public class ProductServiceImpl implements ProductService {

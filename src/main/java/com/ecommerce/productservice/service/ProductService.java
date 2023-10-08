@@ -2,7 +2,7 @@ package com.ecommerce.productservice.service;
 
 import java.util.List;
 
-import com.ecommerce.sharedlibrary.model.ProductDto;
+import com.ecommerce.productservice.model.ProductDto;
 
 public interface ProductService {
 
