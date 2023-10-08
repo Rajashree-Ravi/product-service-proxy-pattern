@@ -19,7 +19,7 @@ import com.ecommerce.productservice.model.ProductDto;
 
 @Service
 public class ProductServiceImpl implements ProductService {
-	private static final Logger LOGGER = LoggerFactory.getLogger(ProductService.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(ProductServiceImpl.class);
 
 	@Autowired
 	private ProductRepository productRepository;

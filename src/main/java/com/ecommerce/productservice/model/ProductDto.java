@@ -38,8 +38,4 @@ public class ProductDto {
 	@ApiModelProperty(notes = "Product Category.", example = "Wearables", required = true)
 	@NotBlank
 	private String category;
-
-	@ApiModelProperty(notes = "Availability Quantity.", example = "100", required = true)
-	@NotNull
-	private int availability;
 }
